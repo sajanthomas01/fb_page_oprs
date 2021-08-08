@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh !important;
+  z-index: 100;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  background-color: #51b6ac;
+}
+
+#sidebar-wrapper {
+
+  padding: 0;
+
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+
+#sidebar-header {
+  width: inherit;
+  background: #4aa79a;
+  min-height: 3.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  color: white;
+  margin: 0;
+}
+
+#sidebar-menu-container {
+  width: inherit;
+}
+
+.fa {
+  padding: 1em;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.base-header {
+  background-color: #ffffff !important;
+  width: auto !important;
+  display: flex;
+  border: 1px solid #f4f6f7 !important;
+  justify-content: flex-end !important;
+}
+
+#dropdown-basic-button {
+  color: black !important;
+  background-color: #fafafa !important;
+  border-color: #f4f6f7 !important;
+}
+
+.dropdown {
+  width: fit-content !important;
+  margin-right: 3rem;
+}

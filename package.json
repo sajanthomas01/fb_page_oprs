@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "fb_page",
+  "version": "0.1.0",
+  "repository": "https://sajan.dev",
+  "author": {
+    "name": "sajan thomas",
+    "email": "info@sajan.dev",
+    "url": "https://sajan.dev"
+  },
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "client": "yarn workspace @fb_page/client",
+    "server": "yarn workspace @fb_page/server",
+    "build": "yarn server build && yarn client build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
